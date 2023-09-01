@@ -1,0 +1,864 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 500px 500px 500px 500px 500px 500px 600px 600px;
+    border-radius: 20px;
+    grid-auto-flow: row;
+    grid-auto-rows: 300px;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 100px;
+    width: 1100px;
+}
+
+.G11Fishing{
+    width: 330px;
+}
+.G11F:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G11F::after{
+    content: " Vietnamese Fishing Culture (2022). My first time working this big with watercolor.";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 74%;
+    width: 133%;
+    text-align: center;
+    bottom: 64px;
+    left: -55px;
+    z-index:10;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px;
+    rotate: 90deg;
+}
+.G11F {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    rotate: -90deg;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+.G11CAS{
+    width: 320px;
+}
+.CAS:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.CAS::after{
+    content: " Painting of a Beach for CAS Creative Experience (November 30, 2022)";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 74%;
+    width: 133%;
+    z-index: 20;
+    text-align: center;
+    bottom: 61px;
+    left: -55px;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px;
+    rotate:90deg
+
+}
+.CAS{
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+    
+    rotate: -90deg;
+    
+}
+
+
+
+.G11ExploreMedia{
+    width: 560px;  
+}
+.G11E:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+    
+}
+.G11E::after{
+    content: "Abstract Rice Field (2022). Quick photo manipulation of a rice field in Vietnam";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 7px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px;
+}
+.G11E {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+    
+    
+}
+
+
+
+
+.container img{
+    border-radius: 7px;
+    border-color: #d66966;
+    border-style: solid;
+    border-width: 3px; 
+}
+
+
+
+
+
+
+.Covid{
+    width: 443px;
+}
+.C:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+    
+}
+.C::after{
+    content: "Covid-19 (Summer of 2023). Study of the American Gothic through the comparative study criterion F";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 99%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 7px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px;  
+}
+.C {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+    
+    
+}
+
+
+
+
+
+
+
+.G11ThirdOil{
+    width: 557px;
+}
+.G113:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G113::after{
+    content: " Banh Chung (2023). Third oil paint exploration";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G113 {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+.G112ndOil{
+    width: 440px;
+}
+.G112:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G112::after{
+    content: "Portrait of Anh Dang (2023). Second oil paint exploration";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G112 {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+.G11FirstOil{
+    width: 450px;
+}
+.G111:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G111::after{
+    content: "Apple (2023). First oil paint exploration";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G111 {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Summer{
+    width: 500px;
+}
+.S:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.S::after{
+    content: "Study of Dưới Rặng Tre (Summer of 2022). First assignment for DP art (entrance).";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.S {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+.G10{
+    width: 427px;
+}
+.G:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G::after{
+    content: "Self-portrait (2021). Post-covid art assignment in grade 10.";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+.G10Culture{
+    width: 400px;
+}
+.GC:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.GC::after{
+    content: "Self-portrait - Culture Exploration 1 (2021 ~ After the first post-covid art assignment in grade 10.)";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.GC {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+.G9SketchBookCover{
+    width: 430px;
+}
+.G9SBC:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G9SBC::after{
+    content: " Beach Painting Sketchbook Cover Page (2019).";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G9SBC {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+.G9DigitalEarth{
+    width: 447px;
+}
+.G9DE:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G9DE::after{
+    content: " Brainstorming Ideas for the Summative Assessment in Grade 9 (2019).";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+
+.G9DE {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+.G9DigitalEarth1{
+    width: 430px;
+}
+.G9DE1:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G9DE1::after{
+    content: "Brainstorming Ideas for the Summative Assessment in Grade 9 (2019).";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G9DE1 {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+.Grade9{
+    width: 500px;
+}
+.G9:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G9::after{
+    content: "Brainstorming Ideas for the Summative Assessment in Grade 9 (2019).";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G9 {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+.G9Digital{
+    width: 430px;
+}
+.G9D:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G9D::after{
+    content: "Brainstorming Ideas for the Summative Assessment in Grade 9 (2019). First time using Pixlr";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G9D {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+.G9Digital2{
+    width: 500px;
+}
+.G9D2:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G9D2::after{
+    content: "Brainstorming Ideas for the Summative Assessment in Grade 9 (2019). First time using Pixlr";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G9D2 {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+
+.G8MixMedia{
+    width: 430px;
+}
+.G8MM:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G8MM::after{
+    content: "My Personal Favorite Belongings (2018). First-most impressive artwork ever made.";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G8MM {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+.G8ClayBall{
+    width: 500px;
+}
+.G8CB:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G8CB::after{
+    content: "Balance as an IB Learner Trait (2018). Second most impressive artwork ever made.";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G8CB {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+.G8ColorWheel{
+    width: 400px;
+}
+.G8CW:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.G8CW::after{
+    content: "Color-wheel Practice (2018). First time using acrylic / holding a brush / painting / mixing colors.";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.G8CW {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+.tet2{
+    position: relative;
+    border: black;
+    border-radius: 7px;
+    width: 30vw;
+}
+.galleryimg::after{
+    content: "Tet Celebration May 2023. This is the second painting in my triptych collection, delving into a profound chapter of my life – the tragic year of 2014. During this period, I struggle with a mild mental break down from the loss of a dear family member. My Tet experience during those months remains etched in my memory, though it was a time I'd rather forget. Yet, it is a critical event in my life that has played a role in shaping the person I have become today.";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    left: 0;
+    z-index:10;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px;
+    
+}
+.galleryimg:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.galleryimg {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    display: grid;
+    align-items: center;
+    border-radius: 7px;
+    grid-auto-flow: row;
+    border-style: solid;
+}
+
+.home_bg{
+    position: absolute;
+    left:0px;
+    top:0px;
+    right: -20px;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 0;
+    min-height: 20%;
+    background-size: 75%;
+    background-color: black;
+    opacity: 80%;
+}
+
+
+a{
+    position: absolute;
+    top: 677px;
+    right: 77px;
+    left: 77px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 77;
+    line-height: 27px;
+
+}
+
