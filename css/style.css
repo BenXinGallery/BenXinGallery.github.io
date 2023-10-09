@@ -12,6 +12,13 @@
     width: 1100px;
 }
 
+.container img{
+    border-radius: 7px;
+    border-color: #d66966;
+    border-style: solid;
+    border-width: 3px; 
+}
+
 .G11Fishing{
     width: 330px;
 }
@@ -124,18 +131,6 @@
     
     
 }
-
-
-
-
-.container img{
-    border-radius: 7px;
-    border-color: #d66966;
-    border-style: solid;
-    border-width: 3px; 
-}
-
-
 
 
 
@@ -253,6 +248,130 @@
     border-radius: 7px;
     grid-auto-flow: row;
 }
+
+
+
+.D1{
+    width: 440px;
+}
+.D1D:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.D1D::after{
+    content: "Design Project Grade 8";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.D1D {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+.L1{
+    width: 440px;
+}
+.L1L:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.L1L::after{
+    content: "Clay Practice";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.L1L {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+.L2{
+    width: 440px;
+}
+.L2L:hover::after{ 
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.L2L::after{
+    content: "Clay Practice";
+    position: absolute;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    height: 98%;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+    bottom: 9px;
+    left: 0;
+    transform: translateY(22px);
+    transition: 0.5s;
+    color: white;
+    border-radius: 7px; 
+}
+.L2L {
+    position: relative;
+    transition: 0.5s;
+    width: fit-content;
+    max-height: fit-content;
+    border-radius: 7px;
+    grid-auto-flow: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
